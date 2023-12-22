@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+<title>Perfecto</title>
+<script>
+		function setPopap(popapState)
+		{
+			if (popapState) {
+				document.getElementById("popap").classList.add("block");
+			}
+			else {
+				document.getElementById("popap").classList.remove(1);
+			}
+		}
+</script>
+
+<style>
+	
+	.tg {
+	display: block;
+	}
+	.tg:hover {
+	content: url('img/_Telegram2.png');
+	}
+	.inst {
+	display: block;
+	}
+	.inst:hover {
+	content: url('img/Instagram2.png');
+	transition: 600ms;
+	}
+
+	.wa {
+	display: block;
+	}
+	.wa:hover {
+	content: url('img/_WhatsApp2.png');
+	}
+</style>
+
+</head>
+<body>
+
+<header class="header">
+	<div class="container">
+		<div class="nav">
+			<img src="img/logo.svg" alt="" class="logo1">
+			<nav>
+				<div class="eee">
+					<img src="img/местоположение.svg" class="yl" alt=""><a href="#" class="text"> Пр-т Большевиков,21 </a>
+					<img src="img/tel.svg" class="tel2" alt=""> <a href="#" class="text">  +7(999)010-11-00</a>
+					<a class="dropbtn" onclick="setPopap(true)"><img src="img/group1.png" alt="" class="menu"></a>
+				</div>
+			</nav>		
+		</div>
+	</div>
+</header>
+
+<div id="popap" class="popap">
+		<div class="popapbody">
+			<div class="popapcontent">
+				<a href="" class="popapclose" onclick="setPopap(false)"><img src="img/close.svg" alt=""></a>
+				<div class="popaplog">
+					<center>
+						<img src="img/logo2.png" alt="" class="logo3">
+					</center>
+				</div>
+
+				<div class="popapbtn">
+					<div class="iden3"><a href="#" class="iden31"> запись </a></div>
+					<div class="iden3"><a href="index2.html" class="iden31">услуги </a></div>
+					<div class="iden3">мастера</div>
+					<div class="iden3"><a href="index3.html" class="iden31">портфолио</a></div>
+					<div class="iden3">контакты</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+		<div class="navsait">
+		<a href="index.html" class="glavnaya1">главная</a> • <div id="ysl">портфолио</div>
+		</div>
+	</div>
+<div class="about">
+	<div class="container">
+		<div class="center">
+			<h4>Наши работы</h4>
+		</div>
+		<div class="yslygi">
+			<div class="center">
+				<p>Твои брови и ресницы могут выглядеть так</p>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="img/nasty.png" alt="">
+					<div class="zz" align=center>
+						Анастасия<br>
+						Ламинирование бровей
+					</div>
+				</div>
+				<div class="col">
+					<img src="img/olga.png" alt="">
+					<div class="zz" align=center>
+						Ольга<br>
+						Ламинирование бровей
+					</div>
+				</div>
+				<div class="col">
+					<img src="img/ekaterina.png" alt="">
+					<div class="zz" align=center>
+						Екатерина<br>
+						Ламинирование бровей
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ww">
+			<div class="center">
+				<button type="button" class="btn btn-primary btn-lg">записаться</button>
+			</div>
+		</div>
+	</div>
+</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="nav">
+					<div class="hhk">
+						<nav>
+							<img src="img/местоположение.svg" alt="" class="yl"><a href="#" class="text"> Пр-т Большевиков,21 </a><br>
+							<img src="img/tel.svg" alt="" class="tel"> <a href="#" class="text">  +7(999)010-11-00</a>
+						</nav>
+					</div>
+					<div class="logcent">
+						<img src="img/logo2.png" alt="" class="logo2">
+					</div>
+					<div class="seti">
+
+						<a href="#" class="tg"><img src="img/_Telegram.png" alt=""></a>
+						<a href="#" class="inst"><img src="img/Instagram.png" alt=""></a>
+						<a href="#" class="wa"><img src="img/_WhatsApp.png" alt=""></a>
+
+					</div>
+				</div>
+			</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
